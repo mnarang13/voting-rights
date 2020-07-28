@@ -64,9 +64,13 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #cc0000ff;
+  background-color: #cc0000f2;
   border-style: solid;
   border-color: #001e96;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 /* TODO (optional): Change the font size*/
@@ -84,7 +88,7 @@ li.nav a {
   display: block;
   color: #fff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
