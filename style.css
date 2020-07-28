@@ -186,15 +186,18 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2F150803-votingrights-editorial-1.jpg?v=1595949290158");
 }
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
+  background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2Fewscripps.brightspotcdn.jpg?v=1595949305978");
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+.image-one {
+  background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2Fewscripps.brightspotcdn.jpg?v=1595949305978");
+}
 
 /* TODO: Add more background images by repeating the process above */
 
