@@ -161,7 +161,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #ffffffdc;
+  background-color: #ffffffab;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
@@ -181,7 +181,7 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
+  background-attachment: fixed;
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
