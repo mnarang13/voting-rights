@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #fff; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ h1 {
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
   font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  color: #cc0000ff;
   text-align: center;
 }
 
@@ -39,14 +39,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  color: #cc0000ff;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #001e96;
   text-decoration: none;
 }
 
@@ -64,9 +64,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #cc0000;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #001e96;
 }
 
 /* TODO (optional): Change the font size*/
@@ -82,7 +82,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -94,7 +94,7 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
+  background-color: #cc0000ff;
   color: #43d6b9ff;
 }
 
@@ -111,7 +111,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #ffffffba;
+  background-color: #cc0000dc;
   padding: 5px;
 
   /* Positioning properties */
@@ -127,7 +127,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: #fff;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -139,10 +139,10 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
+  background-color: #fff; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
+  color: #cc0000ff; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -161,7 +161,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #fff;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
@@ -176,7 +176,7 @@ li.nav a:hover {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #43d6b9ff;
+  background-color: #cc0000ff;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
