@@ -74,7 +74,8 @@
   padding-top: 5px;
   padding-bottom: 15px;
   border-style: solid;
-  border-color: #43d6b9ff;
+  border-color: #001e96;
+  margin-top: 90px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -82,7 +83,7 @@
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: #0D38D3;
+  color: #cc0000ff;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
