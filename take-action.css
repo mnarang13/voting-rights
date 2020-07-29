@@ -32,10 +32,10 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: start;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  /*border-style: dotted;*/ 
 }
 
-/* Left box under title; item in .flex-container */
+/* left box under title - explanation */
 .action-info-container {
   width: 100%;
   margin-right: 5%;
@@ -45,7 +45,7 @@
   padding: 35px;
   font-size: 16px;
   flex-grow: 2;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  /*border-style: dotted;*/ 
 }
 
 .action-info-container img{
@@ -59,10 +59,10 @@
   margin: 5%;
   flex-grow: 1;
   background-color: #0d9c90;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  /*border-style: dotted;*/ 
 }
 
-/* Holds all elements related to the action item list; inside the action-list-container */
+/* all elements related to the action item list */
 #checklist {
   background-color: white;
   border-radius: 15px;
@@ -70,17 +70,18 @@
   padding-bottom: 15px;
   border-style: solid;
   border-color: #001e96;
-  margin-top: 90px;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  margin-top: 8%;
+  background-color: #001e96;
+  /*border-style: dotted;*/ 
 }
 
 
-/* Header in the list container */
+/* header in the list container */
 #checklist-header {
   text-align: center;
-  color: #cc0000ff;
-  letter-spacing: 1px;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  color: #fff;
+  letter-spacing: 2px;
+  /*border-style: dotted;*/ 
 }
 
 /* Intructions inside the list container */
@@ -88,8 +89,8 @@
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  color: #fff;
+  /*border-style: dotted;*/ 
   
 }
 
@@ -111,15 +112,15 @@
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  color: black;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  color: #fff;
+  /*border-style: dotted;*/ 
 }
 
 /* Styling for the check squares added at the beginning of each list item */
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #cc0000ff;
+  border-color: #fff;
   border-style: solid;
   border-width: 2px;
   
@@ -129,32 +130,30 @@
   width: 10px;
 }
 /* 
-A note on the checkbox: This is actually just a neat trick. Before the 
-item is clicked, the CSS file inserts a blank space through the content: "";
-property. You can draw a border around this blank space so it appears like 
-a box. After the item is clicked, new CSS rules are applied that remove the 
-border from two sides and rotate the blank space by 45 degress so it looks 
-like a checkmark!
+note: Before item is clicked, CSS file inserts blank space through the 
+content: ""; property - can draw border around blank space, looks like a box. After item is clicked, 
+new CSS rules remove the border from two sides, rotate the blank space by 45 degress so it looks 
+like a checkmark
 */
 
-/* Change background color when cursor hovers over list items */
+/* change background color on hover */
 #my-list li:hover {
   background: #f3f3f3;
   color: #0D38D3;
 }
 
-/* Change check square color when cursor hovers over */
+/* change check square color on hover */
 #my-list li:hover::before {
   border-color: #0D38D3;
   border-style: solid;
 }
 
-/* When marked complete (i.e. clicked on) add strikethrough */
+/* add strikethrough when clicked */
 #my-list li.all-done {
   text-decoration: line-through;
 }
 
-/* Add a "checked" mark when clicked on */
+/* Add a "checked" mark when clicked */
 #my-list li.all-done::before {
   content: "";
   position: absolute;
