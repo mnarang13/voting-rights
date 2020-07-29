@@ -30,7 +30,7 @@ h1 {
 
 /*TODO: change font*/
 h2 {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
   color: #cc0000ff;
@@ -106,11 +106,10 @@ li.nav a:hover {
   right: 20%;
   top: 30%; /* Change this value to move the box up or down */
   
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
+/* main heading text */
 .heading-home {
   padding: 2%;
   color: #fff;
@@ -119,44 +118,35 @@ li.nav a:hover {
   line-height: 60px;
   text-align: center;
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
+/* intro message text */
 .intro-text {
   background-color: #fff; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #cc0000ff; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
+  color: #cc0000ff; 
+  font-size: 20px; 
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   text-align: center;
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
-/************************************************/
-/*************** PARALLAX SCROLL ****************/
-/************************************************/
+/*************** PARALLAX ****************/
 
-/*-----------TEXT SECTIONS-----------*/
-
-/* TODO (optional): Change the background color and/or text alignment */
-
+/*-----------text sections-----------*/
 .text-section {
   background-color: #ffffffab;
   padding: 20px 45px;
-  margin: 35px;
-  text-align: center;
+  margin: 10px;
+  text-align: left;
+  letter-spacing: 1px;
 }
 
-/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
-
-/* TODO: Add the CSS selector for each image to the collective image rule set */
-
+/*---------images and parallax---------*/
 .main-message,
 .image-one, .image-two, .image-three {
   position: relative;
@@ -166,43 +156,37 @@ li.nav a:hover {
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
-  /* TODO: Add the property to create the parallax scrolling effect here */
   background-attachment: fixed;
 }
 
-/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+/* picture behind heading - recent protest */
 .main-message {
   background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2F150803-votingrights-editorial-1.jpg?v=1595949290158");
 }
 
-/* TODO: Replace the current image URL with your own */
+/* 1st picture - polls */
 .image-one {
   background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2Fewscripps.brightspotcdn.jpg?v=1595949305978");
 }
 
-/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+/* 2nd picture - 1960s protest */
 .image-two {
   background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2FMarchers_with_signs_at_the_March_on_Washington%2C_1963.jpg?v=1595949315754");
 }
 
+/* 3rd picture - photo ID required */
 .image-three {
   background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2Fvoter-id-fb.png?v=1596063387008");
 }
 
-/* TODO: Add more background images by repeating the process above */
-
-/*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
+/*----------- image attributions -----------*/
 .attributions {
   font-size: 12px;
   text-align: right;
   margin-right: 10px;
 }
 
-/******************************************************/
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
-/******************************************************/
-
-/* TODO: Add a breakpoint if the screen is 700px or less */
 @media screen and (max-width: 700px) {
   .flex-container {
     flex-wrap: wrap;
@@ -215,5 +199,4 @@ li.nav a:hover {
   
 }
 
-
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: add breakpoints based on website design
