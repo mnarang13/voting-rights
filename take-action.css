@@ -6,7 +6,12 @@
   width: 100%;
   position: absolute;
   text-transform: uppercase;
-  background-color: #0D38D3;
+  background-color: #001e96;
+  margin-top: 50px;
+}
+
+#action-header {
+  color: #fff;
 }
 
 
