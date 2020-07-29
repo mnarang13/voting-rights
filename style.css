@@ -1,40 +1,34 @@
 /* 
-
-This CSS file is contains the CSS rule sets for 
+contains rules for:
     - index.html
     - any universal elements that all pages use
 
-The CSS for the take-action.html is in take-action.css
-
+(CSS for the take-action.html is in take-action.css)
 */
 
-/************************************************/
 /************* UNIVERSAL ELEMENTS ***************/
-/************************************************/
-
-/* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
 body,
 html {
   height: 100%;
-  font-size: 20px; /* Change the font size*/
+  font-size: 20px; 
   font-family: "Roboto", sans-serif; /* Change the font */
-  line-height: 1.5em; /* Change the line height size*/
+  line-height: 1.5em; 
   margin: 0em;
-  color: #cc0000ff; /* Change the font color*/
-  background-color: #fff; /* Change the background color */
+  color: #cc0000ff; 
+  background-color: #fff; 
   box-sizing: border-box;
 }
 
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
+  /*TODO: change font*/
   font-family: "Roboto Mono", sans-serif;
   color: #cc0000ff;
   text-align: center;
 }
 
-/*TODO: Change the font-family property to your linked font*/
+/*TODO: change font*/
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
@@ -46,13 +40,15 @@ h2 {
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
+  /*color: #001e96;*/
+}
+
+a:hover {
   color: #001e96;
   text-decoration: none;
 }
 
-/************************************************/
-/*************** CSS FOR NAV BAR ****************/
-/************************************************/
+/*************** NAV BAR ****************/
 
 /* All of these TODOs are optional. You should change the styling based on your mockup */
 
