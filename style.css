@@ -176,7 +176,7 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one, .image-two {
+.image-one, .image-two, .image-three {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,6 +201,10 @@ li.nav a:hover {
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 .image-two {
   background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2FMarchers_with_signs_at_the_March_on_Washington%2C_1963.jpg?v=1595949315754");
+}
+
+.image-three {
+  background-image: url("https://cdn.glitch.com/22e5b1ff-d377-4a78-89a9-d25d41b0c854%2Fvoter-id-fb.png?v=1596063387008");
 }
 
 /* TODO: Add more background images by repeating the process above */

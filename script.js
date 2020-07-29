@@ -1,16 +1,12 @@
-/************************************************/
-/********* ADD CHECKLIST FUNCTIONALITY **********/
-/************************************************/
-
-/* TODO: Add a variable to store the "my-list" element */
+//checklist variable
 var fullItemList = document.getElementById("my-list");
 
-/* TODO: Create the event listener that listens for a mouse click and runs the checkOffList function */
+//event listener
 if (fullItemList) {
   fullItemList.addEventListener("click", checkOffItem);
 }
 
-/* TODO: Declare the function checkOffList and add actions inside the { } */
+//function to change style when clicked
 function checkOffItem(clicked) {
   if (clicked.target.tagName == "LI") {
     clicked.target.classList.toggle("all-done");
