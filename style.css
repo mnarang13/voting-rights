@@ -50,18 +50,14 @@ a:hover {
 
 /*************** NAV BAR ****************/
 
-/* All of these TODOs are optional. You should change the styling based on your mockup */
-
-/* TODO (optional): Change the background color and/or border style */
-
+/*style of nav bar*/
 ul.nav-bar {
-  /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #cc0000f2;
-  border-style: solid;
+  border-style: none none solid none;
   border-color: #001e96;
   position: fixed;
   top: 0;
@@ -69,56 +65,46 @@ ul.nav-bar {
   z-index: 2;
 }
 
-/* TODO (optional): Change the font size*/
-
 li.nav {
-  /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
 }
 
-/* TODO (optional): Change the font color, decoration, and/or case */
-
+/*style of elements in nav bar*/
 li.nav a {
-  /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: #fff;
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-
 li.nav a:hover {
-  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #fff;
   color: #cc0000ff;
 }
 
-/************************************************/
-/*********** CSS FOR FLEXBOX HEADING ************/
-/************************************************/
+/*********** MAIN HEADING ************/
 
-/* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
-  display: flex; /* Set the flexbox display */
-  flex-direction: row; /* Configure the flex items to row */
-  flex-wrap: nowrap; /* Don’t wrap the flex items */
-  justify-content: center; /* Justify the flex items to the center */
-  align-items: center; /* Align the flex items to the center */
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-items: center; 
 
   /* Design properties */
   background-color: #cc0000dc;
   padding: 5px;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2), 6px 6px 10px 0px rgba(0, 0, 0, 0.15);
+
 
   /* Positioning properties */
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 40%; /* Change this value to move the box up or down */
+  top: 30%; /* Change this value to move the box up or down */
   
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
