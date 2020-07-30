@@ -12,6 +12,10 @@
   color: #fff;
 }
 
+p a {
+  color: #fff;
+}
+
 /***************** ACTION ITEM LIST *******************/
 
 /* flexbox container */
