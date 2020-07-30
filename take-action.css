@@ -31,7 +31,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: start;
+  align-items: start;  
   /*border-style: dotted;*/ 
 }
 
@@ -71,8 +71,9 @@
   border-style: solid;
   border-color: #001e96;
   margin-top: 8%;
-  background-color: #001e96;
+  background-color: #001e96cd;
   /*border-style: dotted;*/ 
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2), 6px 6px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -157,7 +158,7 @@ like a checkmark
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: #ddd;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
