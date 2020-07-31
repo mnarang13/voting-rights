@@ -139,13 +139,13 @@ like a checkmark
 
 /* change background color on hover */
 #my-list li:hover {
-  background: #f3f3f3;
-  color: #0D38D3;
+  background: #a;
+  color: #001e96;
 }
 
 /* change check square color on hover */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: #001e96;
   border-style: solid;
 }
 
