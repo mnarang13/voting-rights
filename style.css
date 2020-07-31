@@ -189,11 +189,16 @@ li.nav a:hover {
   justify-content: space-around;
   position: absolute;
   margin-top: 150px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #header-resources {
   color: #fff;
+}
+
+.organizations, .articles {
+  max-width: 48%;
+  
 }
 
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
