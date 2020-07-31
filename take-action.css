@@ -12,6 +12,10 @@
   color: #fff;
 }
 
+h3 {
+  text-align: center;
+}
+
 /***************** ACTION ITEM LIST *******************/
 
 /* flexbox container */
@@ -139,7 +143,7 @@ like a checkmark
 
 /* change background color on hover */
 #my-list li:hover {
-  background: #a;
+  background: #ddd;
   color: #001e96;
 }
 
