@@ -32,8 +32,9 @@ h3 {
   margin: 5% 0;
   width: 90%;
 
-  flex-direction: row;
-  flex-wrap: nowrap;
+  /*flex-direction: row;
+  flex-wrap: nowrap;*/
+  flex-flow: row wrap;
   justify-content: center;
   align-items: start;  
   /*border-style: dotted;*/ 
@@ -184,6 +185,10 @@ like a checkmark
 
   .flex-container-action {
     flex-wrap: wrap;
+  }
+  
+  .action-info-container {
+    margin-top: 5%;
   }
 }
 
