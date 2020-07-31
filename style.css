@@ -197,7 +197,7 @@ li.nav a:hover {
 }
 
 .organizations, .articles {
-  max-width: 47%;
+  max-width: 45%;
   border-style: solid;
   border-radius: 15px;
   border-color: #cc0000;
@@ -207,7 +207,7 @@ li.nav a:hover {
 }
 
 .video {
-  padding: 10px;
+  padding: 0px;
 }
 
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
